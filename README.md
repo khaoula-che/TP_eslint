@@ -134,3 +134,16 @@ Si des erreurs sont présentes dans le code, le commit est bloqué automatiqueme
 - Créer une branche avec du code non conforme
     ```bash
     git checkout -b feature/ajout-fonction
+- Ajout d’un fichier `utils.js` avec des erreurs :
+    ```js
+    function addition(a,b){
+    return a+b
+    }
+    console.log(addition(2,3))
+
+- Après correction avec npx eslint --fix
+    ```js
+    function addition(a, b) {
+    return a + b;
+    }
+    console.warn(addition(2, 3));
