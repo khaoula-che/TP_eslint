@@ -129,3 +129,8 @@ Si des erreurs sont présentes dans le code, le commit est bloqué automatiqueme
 
     git init 
     git remote add https://github.com/khaoula-che/TP_eslint.git 
+
+6. Simulation d’un travail d’équipe 
+- Créer une branche avec du code non conforme
+    ```bash
+    git checkout -b feature/ajout-fonction
